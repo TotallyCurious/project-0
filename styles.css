@@ -13,6 +13,7 @@ p {
 	padding: 10%;
 	margin: 10%;
 	width: 50%;
+	border-radius: 25px;
 }
 .heading{
 	color:#616D7E ;
