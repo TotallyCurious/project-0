@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title style="margin-left:20px">Products</title>
+    	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <style>
+        body{
+          background-color: aliceblue;
+        }
+      .jumbotron{
+        background-color: darkgray;
+        color: white;
+      }
+      /*Adds borders for tabs*/
+      .tab-content{
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 1px;
+      }
+      .nav-tabs{
+        margin-botton:0;
+      }
+      .itemimg{
+        width: inherit;
+      }
+      .crop {
+        width: 280px;
+        overflow: hidden;
+      }
+      </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="https://cs50.github.io/web/">WebDevProject</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <ul class="nav navbar-nav">
+               <li class="active"><a href="./index.html">Home<span class="sr-only">(current)</span></a></li>
+               <li><a href="./products.html">Products</a></li>
+               <li><a href="./services.html">Services</a></li>
+               <li><a href="./aboutus.html">About</a></li>
+               <li><a href="./contact.html">Contact</a></li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+      <div class="container">
+        <div class="jumbotron">
+          <p>This page uses Bootstrap</p>
+          <p>Select products to buy. Don't expect delivery</p>
+        </div>
+        <div class="row thumbnail">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 thumbnail">
+            <a href="#" class="thumbnail">
+              <img class="itemimg"src="https://4.bp.blogspot.com/_mlkjtmR9zJQ/TED6tv4rT-I/AAAAAAAAB9k/XOmM1IWQby4/s1600/burger.gif" />
+            </a>
+            <h4>Cheeseburger</h4><button class="btn btn-primary"data-toggle="button" data-active-class="success">Add to Cart</button><p></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 thumbnail">
+            <a href="#" class="thumbnail">
+              <img class="itemimg"src="https://sweetandsaucy.files.wordpress.com/2008/07/twice_baked_potatoes.jpg" />
+            </a>
+            <h4>Baked Potato</h4><button class="btn btn-primary">Add to Cart</button><p></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 thumbnail">
+            <a href="#" class="thumbnail">
+              <img class="itemimg"src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Faz835686.vo.msecnd.net%2Fimages%2Fgallery_huge%2F15140_24112_900px58183.04.jpg.58183.04.jpg&f=1" />
+            </a>
+            <h4>Elephant's Tail</h4><button class="btn btn-primary">Add to Cart</button><p></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 thumbnail">
+            <a href="#" class="thumbnail">
+              <img class="itemimg crop"src="http://edit.burrp.com/wp-content/uploads/2012/05/irani-chai.jpg" />
+            </a>
+            <h4>Iranian Milk Chai Tea</h4><button class="btn btn-primary">Add to Cart</button><p></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>
